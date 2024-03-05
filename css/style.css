@@ -1,0 +1,39 @@
+body {
+    /* background-color: #24353F; */
+    background: linear-gradient(90deg, rgba(40,44,43,1) 16%, rgb(33, 52, 80) 48%, rgb(2, 70, 90) 100%);
+  }
+h1 {
+    color: #17a2b8;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgb(51, 95, 122);
+}
+
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+
+::placeholder {
+    color: rgb(255, 255, 255)  !important;
+  }
+
+  #hs{
+    box-shadow:  0 0 4rem rgba(112, 188, 250, 0.753) !important;
+    
+  }
+
+  .border {
+    border: var(--bs-border-width) var(--bs-border-style) !important;
+    border-color: #17a2b8 !important;
+}
+
+#incorrect{
+  color: rgb(255, 0, 0);
+}
+
+#exist{
+  color: rgb(111, 231, 111);
+  font-size: 20px;
+}
